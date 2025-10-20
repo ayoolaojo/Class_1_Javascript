@@ -77,6 +77,46 @@ const isDataslidStudent = true;
 
 console.log(age >30 && isDataslidStudent)
 
+const message2 = "That is Gbenga's book"
+
+console.log(message2.length)
+
+const _name1 = 'Joey' 
+name1Upper = _name1.toUpperCase()
+console.log(name1Upper)
+
+
+convertedName = name1Upper.toLowerCase()
+console.log(convertedName)
+
+
+const name3 =  'Samuel'
+
+const slicedName = name3.slice(2,6)
+
+console.log(slicedName)
+
+const includesY = name3.includes('am')
+console.log(includesY)
+
+const replacedName = name3.replace('S', 'M')
+
+console.log(replacedName)
+
+
+
+
+
+const anyhow = '       Why do we even need this, as how?  ' 
+console.log(anyhow.length)     
+const trimmedAnyhow = anyhow.trim()
+console.log(trimmedAnyhow)
+
+const splitAnyhow = trimmedAnyhow.split(' ')
+console.log(splitAnyhow)
+
+
+
 // console.log(age > 18 && isStudent);  // true (both true)
 // console.log(age < 18 || isStudent);  // true (one true)
 // console.log(!isStudent);             // false (reverses true to false)

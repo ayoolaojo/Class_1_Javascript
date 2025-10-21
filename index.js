@@ -122,3 +122,56 @@ console.log(splitAnyhow)
 // console.log(!isStudent);             // false (reverses true to false)
 
 
+console.log(trimmedAnyhow.charAt(1))
+
+
+const language3 = 'JavaScript'
+
+
+
+console.log(language3.at(-2))
+
+
+const example1 = 'My name is'
+const example2 = 'Ayoola'
+
+
+
+
+
+const result =example1.concat(' ', example2)
+
+console.log(result)
+
+const fruitList = 'mango, apples, banana, orange'
+
+console.log(fruitList.substring(7,15))
+
+ const num2 = 15
+
+if(num2 >= 15){
+    console.log("hurray! the number is greater than 15")
+
+} else {
+    console.log("oh no! the number is less than 15")
+}
+
+
+const favLetter = prompt("enter your favorite letter")
+const correctLetter = 'a'
+
+if (favLetter === correctLetter){
+    alert(`you are correct, the answer is ${correctLetter} ` )
+
+} else if(favLetter === 'A'){
+    alert('you are close, but the answer is lowercase a')
+    
+}else{
+    alert('sorry, wrong answer, try again next time')
+}
+
+
+
+
+
+

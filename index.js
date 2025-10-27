@@ -9,166 +9,240 @@
 
 
 
-const myName = 'Ayoola'
-const anotherName = ' Adams'
-console.log (myName)
+// const myName = 'Ayoola'
+// const anotherName = ' Adams'
+// console.log (myName)
 
-doubleNames = myName + anotherName
+// doubleNames = myName + anotherName
 
-console.log(doubleNames)
+// console.log(doubleNames)
 
-const num1 = '10'
-console.log(myName + num1)
-
-
-
-isStudent = false 
-console.log(isStudent)  
-
-
-let fruit = 'mango';
-console.log(fruit)
+// const num1 = '10'
+// console.log(myName + num1)
 
 
 
- let doneWithJavascript = null;
+// isStudent = false 
+// console.log(isStudent)  
 
 
-    console.log(typeof(doneWithJavascript)) //typeof doneWithJavascript
-    console.log(typeof(100)) //typeof doneWithJavascript
-    console.log(typeof(myName)) //typeof doneWithJavascript
-    console.log(typeof(isStudent)) //typeof doneWithJavascript
+// let fruit = 'mango';
+// console.log(fruit)
 
-    const language = 'JavaScript'
-    const difficultyLevel = 8;
-    const isFun = true;
-    let nextLesson;
-    const completedLesson = null;
 
-    console.log(language)
-    console.log(difficultyLevel)
-    console.log(isFun)
-    console.log(nextLesson)
-    console.log(completedLesson)
 
-    const sentence = language + ' is fun to learn' 
+//  let doneWithJavascript = null;
+
+
+//     console.log(typeof(doneWithJavascript)) //typeof doneWithJavascript
+//     console.log(typeof(100)) //typeof doneWithJavascript
+//     console.log(typeof(myName)) //typeof doneWithJavascript
+//     console.log(typeof(isStudent)) //typeof doneWithJavascript
+
+//     const language = 'JavaScript'
+//     const difficultyLevel = 8;
+//     const isFun = true;
+//     let nextLesson;
+//     const completedLesson = null;
+
+//     console.log(language)
+//     console.log(difficultyLevel)
+//     console.log(isFun)
+//     console.log(nextLesson)
+//     console.log(completedLesson)
+
+//     const sentence = language + ' is fun to learn' 
     
-const sentence1 = `${language} is  very fun to learn`
-console.log(sentence1)
-console.log(sentence)
+// const sentence1 = `${language} is  very fun to learn`
+// console.log(sentence1)
+// console.log(sentence)
 
-const a = 10
-const b = 5
+// const a = 10
+// const b = 5
 
-console.log(a + b)
-console.log(a - b)
-console.log(a * b)
-console.log(a / b)
-console.log(a % b)
-console.log(a ** b) // exponentiation 10^5
+// console.log(a + b)
+// console.log(a - b)
+// console.log(a * b)
+// console.log(a / b)
+// console.log(a % b)
+// console.log(a ** b) // exponentiation 10^5
 
-5 ==='5' 
+// 5 ==='5' 
 
-10 !== 5 
-
-
-const age = 25;
-const isDataslidStudent = true;
-
-console.log(age >30 && isDataslidStudent)
-
-const message2 = "That is Gbenga's book"
-
-console.log(message2.length)
-
-const _name1 = 'Joey' 
-name1Upper = _name1.toUpperCase()
-console.log(name1Upper)
+// 10 !== 5 
 
 
-convertedName = name1Upper.toLowerCase()
-console.log(convertedName)
+// const age = 25;
+// const isDataslidStudent = true;
+
+// console.log(age >30 && isDataslidStudent)
+
+// const message2 = "That is Gbenga's book"
+
+// console.log(message2.length)
+
+// const _name1 = 'Joey' 
+// name1Upper = _name1.toUpperCase()
+// console.log(name1Upper)
 
 
-const name3 =  'Samuel'
-
-const slicedName = name3.slice(2,6)
-
-console.log(slicedName)
-
-const includesY = name3.includes('am')
-console.log(includesY)
-
-const replacedName = name3.replace('S', 'M')
-
-console.log(replacedName)
+// convertedName = name1Upper.toLowerCase()
+// console.log(convertedName)
 
 
+// const name3 =  'Samuel'
 
+// const slicedName = name3.slice(2,6)
 
+// console.log(slicedName)
 
-const anyhow = '       Why do we even need this, as how?  ' 
-console.log(anyhow.length)     
-const trimmedAnyhow = anyhow.trim()
-console.log(trimmedAnyhow)
+// const includesY = name3.includes('am')
+// console.log(includesY)
 
-const splitAnyhow = trimmedAnyhow.split(' ')
-console.log(splitAnyhow)
+// const replacedName = name3.replace('S', 'M')
 
-
-
-// console.log(age > 18 && isStudent);  // true (both true)
-// console.log(age < 18 || isStudent);  // true (one true)
-// console.log(!isStudent);             // false (reverses true to false)
-
-
-console.log(trimmedAnyhow.charAt(1))
-
-
-const language3 = 'JavaScript'
-
-
-
-console.log(language3.at(-2))
-
-
-const example1 = 'My name is'
-const example2 = 'Ayoola'
+// console.log(replacedName)
 
 
 
 
 
-const result =example1.concat(' ', example2)
+// const anyhow = '       Why do we even need this, as how?  ' 
+// console.log(anyhow.length)     
+// const trimmedAnyhow = anyhow.trim()
+// console.log(trimmedAnyhow)
 
-console.log(result)
+// const splitAnyhow = trimmedAnyhow.split(' ')
+// console.log(splitAnyhow)
 
-const fruitList = 'mango, apples, banana, orange'
 
-console.log(fruitList.substring(7,15))
 
- const num2 = 15
+// // console.log(age > 18 && isStudent);  // true (both true)
+// // console.log(age < 18 || isStudent);  // true (one true)
+// // console.log(!isStudent);             // false (reverses true to false)
 
-if(num2 >= 15){
-    console.log("hurray! the number is greater than 15")
 
+// console.log(trimmedAnyhow.charAt(1))
+
+
+// const language3 = 'JavaScript'
+
+
+
+// console.log(language3.at(-2))
+
+
+// const example1 = 'My name is'
+// const example2 = 'Ayoola'
+
+
+
+
+
+// const result =example1.concat(' ', example2)
+
+// console.log(result)
+
+// const fruitList = 'mango, apples, banana, orange'
+
+// console.log(fruitList.substring(7,15))
+
+//  const num2 = 15
+
+// if(num2 >= 15){
+//     console.log("hurray! the number is greater than 15")
+
+// } else {
+//     console.log("oh no! the number is less than 15")
+// }
+
+
+// // const favLetter = prompt("enter your favorite letter")
+// // const correctLetter = 'a'
+
+// if (favLetter === correctLetter){
+//     alert(`you are correct, the answer is ${correctLetter} ` )
+
+// } else if(favLetter === 'A'){
+//     alert('you are close, but the answer is lowercase a')
+    
+// }else{
+//     alert('sorry, wrong answer, try again next time')
+// }
+const newAge = 17
+const isRegistered = true
+
+
+if(newAge >= 18 || isRegistered){
+    console.log("you are eligible to vote")
 } else {
-    console.log("oh no! the number is less than 15")
+    console.log("you are not eligible to vote")
+
 }
 
 
-const favLetter = prompt("enter your favorite letter")
-const correctLetter = 'a'
 
-if (favLetter === correctLetter){
-    alert(`you are correct, the answer is ${correctLetter} ` )
 
-} else if(favLetter === 'A'){
-    alert('you are close, but the answer is lowercase a')
-    
-}else{
-    alert('sorry, wrong answer, try again next time')
+
+
+
+const newNumber =  10
+
+for(let num = 5; num <=10; num++) {
+    console.log(num)
 }
+
+
+const message = 'hello world'
+for(let i =0; i  < message.length; i++ ) {
+   console.log(message[i])
+}
+
+
+
+
+
+
+
+const day = "Saturday";
+
+switch(day) {
+   case 'Monday' : 
+   console.log("today is Monday, Happy new week to you!");
+
+
+
+   break;
+
+   case "Tuesday":
+   console.log("today is Tuesday, even if you didn't start yesterday, today is another day!")
+   break;
+
+   case "Wednesday":
+   console.log("today is Wednesday, the middle of the week")
+   break;
+
+   case 'Thursday':
+   console.log("today is Thursday, praparing for weekend")
+   break;
+
+   case 'Friday':
+   console.log("today is Friday, the last working day of the week")
+   break;
+
+   default:
+   console.log("Thank God  it's weekend ")
+
+
+
+
+
+}
+
+const message1 = 'AFGAHJKSDJBJK'
+console.log(message1[7])
+
+
 
 
 
